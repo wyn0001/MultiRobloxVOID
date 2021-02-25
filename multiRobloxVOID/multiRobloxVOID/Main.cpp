@@ -291,16 +291,6 @@ BOOL ProcessExists(LPCWSTR process, int countAllIDs, DWORD usedProcIDs[])
 			CloseHandle(hProcessSnap);
 			return TRUE;
 
-			//for (int i = 0; i < countAllIDs; i++) {
-			//	used = false;
-			//	if (usedProcIDs[i] == pe32.th32ProcessID) {
-			//		used = true; // id already used so dont continue
-			//	}
-			//}
-			//if (used == false) {  //current PID not used so return true to continue on
-			//	CloseHandle(hProcessSnap);
-			//	return TRUE;
-			//}
 		}
 	} while (Process32Next(hProcessSnap, &pe32));
 
