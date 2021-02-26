@@ -297,3 +297,4 @@ BOOL ProcessExists(LPCWSTR process, int countAllIDs, DWORD usedProcIDs[])
 	CloseHandle(hProcessSnap);
 	return FALSE;
 }
+//updated loop method
