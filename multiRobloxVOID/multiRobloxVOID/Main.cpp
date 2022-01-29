@@ -1,5 +1,3 @@
-//https://www.unknowncheats.me/forum/general-programming-and-reversing/202534-mutexkiller.html
-
 #include "Main.h"
 #define WIN32_LEAN_AND_MEAN
 
