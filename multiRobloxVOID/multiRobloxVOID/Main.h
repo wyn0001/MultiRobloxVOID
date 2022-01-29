@@ -1,12 +1,12 @@
+/*
+I dont take full credit for this - looked over an older mutex closer from another system and used it as the inspiration
+*/
+
 #pragma once
 #pragma once
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
-/*
-https://www.unknowncheats.me/forum/general-programming-and-reversing/202534-mutexkiller.html
-	Please note, that most of the structures here don't have a documentation in the APIs.
-*/
 #include <Windows.h>
 #include <stdio.h>
 #include <stdlib.h>
