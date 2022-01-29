@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
 	_NtQueryObject NtQueryObject = (_NtQueryObject)GetLibraryProcAddress(const_cast<LPSTR>("ntdll.dll"), const_cast<LPSTR>("NtQueryObject"));
 	SetConsoleTitleW(L"Roblox Multi-Game Launcher");
 	printf("==========================\n");
-	printf("    Coded by wYn#001     \n");
+	printf("    Coded by wYn#0001     \n");
 	printf("==========================\n");
 	printf(" DO NOT CLOSE THIS WINDOW \n");
 	printf("==========================\n");
